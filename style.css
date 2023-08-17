@@ -192,6 +192,18 @@ header nav a:hover {
   color: #6c757d;
   font-size: 18px;
 }
+@media screen and (max-width: 1200px) {
+  #portfolio .icon {
+    width: 297px;
+    height: 223px;
+    top: 1620px;
+  }
+  #portfolio .absolute {
+    top: 1968px;
+    width: 297px;
+    height: 223px;
+  }
+}
 
 #about {
   padding: 96px 0;
@@ -306,14 +318,14 @@ header nav a:hover {
 @media screen and (max-width: 768px) {
   #about .textbox {
     text-align: start;
-    padding: 0 0 0 105px;
+    padding: 0 30px 50px 105px;
   }
   #about .right-box {
-    padding: 0 0 0 105px;
+    padding: 0 30px 50px 105px;
   }
   #about .minibox {
-    height: 1500px;
-    left: 20%;
+    height: 1138px;
+    left: 155px;
   }
   #about .imgbox {
     width: 80px;
@@ -322,25 +334,25 @@ header nav a:hover {
     left: 15%;
   }
   #about .img1 {
-    top: 1600px;
+    top: 3130px;
   }
   #about .img2 {
-    top: 1900px;
+    top: 3395px;
   }
   #about .img3 {
-    top: 2200px;
+    top: 3660px;
   }
   #about .img4 {
-    top: 2500px;
+    top: 3925px;
   }
   #about .box {
     width: 80px;
     height: 80px;
-    left: 43%;
-    padding: 16px;
+    left: 0px;
+    padding: 12px;
   }
   #about .box h5 {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
