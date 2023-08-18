@@ -204,6 +204,36 @@ header nav a:hover {
     height: 223px;
   }
 }
+@media screen and (max-width: 992px) {
+  #portfolio .icon {
+    width: 336px;
+    height: 254px;
+    top: 1720px;
+  }
+  #portfolio .absolute {
+    top: 2098px;
+    width: 336px;
+    height: 254px;
+  }
+  #portfolio .bottom {
+    top: 2476px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #portfolio .icon {
+    width: 247px;
+    height: 186px;
+    top: 1893px;
+  }
+  #portfolio .absolute {
+    top: 2203px;
+    width: 247px;
+    height: 186px;
+  }
+  #portfolio .bottom {
+    top: 2514px;
+  }
+}
 
 #about {
   padding: 96px 0;
@@ -325,7 +355,7 @@ header nav a:hover {
   }
   #about .minibox {
     height: 1138px;
-    left: 155px;
+    left: 146px;
   }
   #about .imgbox {
     width: 80px;
@@ -348,7 +378,7 @@ header nav a:hover {
   #about .box {
     width: 80px;
     height: 80px;
-    left: 0px;
+    left: 10px;
     padding: 12px;
   }
   #about .box h5 {
@@ -406,14 +436,28 @@ header nav a:hover {
 #team .textbox ul li, #team .textbox ul i {
   cursor: pointer;
 }
-#team .col-md-12 .textbox {
-  padding-top: 48px;
+#team .wid {
   width: 650px;
 }
-#team .col-md-12 .textbox p {
+#team .wid p {
   color: #6c757d;
   font-size: 18px;
   line-height: 1.4;
+}
+@media screen and (max-width: 1200px) {
+  #team .imgbox {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #team .imgbox {
+    margin-left: 240px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #team .imgbox {
+    margin-left: 150px;
+  }
 }
 
 #company {
