@@ -502,47 +502,48 @@ header nav a:hover {
   font-size: 18px;
   padding: 20px;
   border-radius: 6px;
-  margin-top: 8px;
-}
-#contact .marginfirst {
-  margin: 0;
-}
-#contact .imgbox {
-  width: 18px;
-  position: relative;
-  bottom: 60px;
-  left: 520px;
-}
-#contact .box2 {
-  bottom: 84px;
-}
-#contact h4, #contact h6 {
-  margin-top: 4px;
-  color: #dc3545;
-  font-size: 16px;
-}
-#contact h6 {
-  margin-top: 8px;
+  margin-bottom: 24px;
 }
 #contact textarea {
   padding: 20px;
   border-radius: 8px;
   font-size: 18px;
-}
-#contact .imgtextarea {
-  width: 18px;
-  position: relative;
-  bottom: 342px;
-  left: 510px;
+  height: 250px;
 }
 #contact .btn {
   padding: 20px 48px;
+  margin-top: 20px;
   background-color: #ffc800;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
   opacity: 0.6;
   border-radius: 6px;
+}
+@media screen and (max-width: 1200px) {
+  #contact input {
+    width: 460px;
+  }
+  #contact textarea {
+    width: 460px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #contact input {
+    width: 340px;
+  }
+  #contact textarea {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact input {
+    width: 520px;
+  }
+  #contact textarea {
+    width: 520px;
+    height: 200px;
+  }
 }
 
 footer {
@@ -570,4 +571,12 @@ footer h2 {
   margin-right: 16px;
   font-size: 16px;
   color: #7d7d7d;
+}
+@media screen and (max-width: 992px) {
+  footer .menu {
+    flex-direction: column;
+  }
+  footer .menu ul {
+    margin: 16px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
