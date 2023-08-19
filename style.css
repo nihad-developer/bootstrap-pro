@@ -465,19 +465,22 @@ header nav a:hover {
 }
 #company .imgbox {
   width: 200px;
-  margin: 16px 0;
+  margin: 16px 50px;
 }
 #company .imgbox img {
   cursor: pointer;
 }
 #company .box2 {
   width: 120px;
+  margin: 16px 90px;
 }
 #company .box3 {
   width: 160px;
+  margin: 16px 70px;
 }
 #company .box4 {
   width: 110px;
+  margin: 16px 100px;
 }
 
 #contact {
@@ -498,17 +501,18 @@ header nav a:hover {
   margin: 16px 0 64px;
 }
 #contact input {
-  width: 550px;
+  width: 640px;
   font-size: 18px;
   padding: 20px;
   border-radius: 6px;
   margin-bottom: 24px;
 }
 #contact textarea {
+  font-size: 18px;
+  width: 640px;
+  height: 250px;
   padding: 20px;
   border-radius: 8px;
-  font-size: 18px;
-  height: 250px;
 }
 #contact .btn {
   padding: 20px 48px;
@@ -519,6 +523,14 @@ header nav a:hover {
   font-weight: 700;
   opacity: 0.6;
   border-radius: 6px;
+}
+@media screen and (max-width: 1400px) {
+  #contact input {
+    width: 550px;
+  }
+  #contact textarea {
+    width: 550px;
+  }
 }
 @media screen and (max-width: 1200px) {
   #contact input {

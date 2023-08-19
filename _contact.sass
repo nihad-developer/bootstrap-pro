@@ -13,16 +13,17 @@
         font-size: 18px
         margin: 16px 0 64px
     input
-        width: 550px
+        width: 640px
         font-size: 18px
         padding: 20px
         border-radius: 6px
         margin-bottom: 24px
     textarea
+        font-size: 18px
+        width: 640px
+        height: 250px
         padding: 20px
         border-radius: 8px
-        font-size: 18px
-        height: 250px
     .btn
         padding: 20px 48px
         margin-top: 20px
@@ -32,6 +33,11 @@
         font-weight: 700
         opacity: 0.6
         border-radius: 6px
+    @media screen and ( max-width: 1400px )
+        input
+            width: 550px
+        textarea
+            width: 550px
     @media screen and ( max-width: 1200px )
         input
             width: 460px
