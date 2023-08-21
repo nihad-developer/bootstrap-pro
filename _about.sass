@@ -7,15 +7,9 @@
         font-size: 18px
         margin: 16px 0 64px
         color: #6c757d
-    .minibox
-        width: 2px
-        height: 1622px
-        background-color: #e9ecef
-        position: absolute
-        left: 50%
     .textbox
         text-align: end
-        padding: 0 110px 120px 120px
+        padding: 0 140px 120px 95px
         h2,h4
             font-weight: 700
             font-size: 28px
@@ -24,8 +18,9 @@
             font-size: 19px
             color: #6b6b6b
             line-height: 1.5
-    .right-box
-        padding: 0 120px 120px 110px
+    .right-text
+        text-align: start
+        padding: 0 125px 120px 110px
     .imgbox
         width: 170px
         height: 170px
@@ -49,10 +44,13 @@
             font-weight: 700
             font-size: 22px
             line-height: 1.2
+    @media screen and ( max-width: 1400px )
+        .textbox
+            padding: 0 110px 120px 95px
     @media screen and ( max-width: 1200px )
         .textbox
             padding: 0 110px 120px 30px
-        .right-box
+        .right-text
             padding: 0 30px 120px 110px
         .imgbox
             right: 21%
@@ -63,7 +61,7 @@
     @media screen and ( max-width: 992px )
         .textbox
             padding: 0 110px 120px 0
-        .right-box
+        .right-text
             padding: 0 0 120px 110px
         .imgbox
             width: 100px
@@ -85,16 +83,13 @@
         .textbox
             text-align: start
             padding: 0 30px 50px 105px
-        .right-box
+        .right-text
             padding: 0 30px 50px 105px
-        .minibox
-            height: 1138px
-            left: 146px
         .imgbox
             width: 80px
             height: 80px
             position: absolute
-            left: 15%
+            left: 84px
         .img1
             top: 3130px
         .img2
@@ -106,7 +101,7 @@
         .box
             width: 80px
             height: 80px
-            left: 10px
+            left: 5px
             padding: 12px
             h5
                 font-size: 12px
