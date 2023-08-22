@@ -17,9 +17,10 @@ h1, h2, h3, h4, h5, h6, p {
 header {
   padding: 32px 0;
   background-color: #202020;
-  position: fixed;
-  width: 1280px;
   z-index: 1;
+}
+header .menu {
+  position: fixed;
 }
 header .imgbox {
   width: 180px;
@@ -68,7 +69,6 @@ header nav a:hover {
   font-size: 20px;
   font-weight: 700;
   border-radius: 7px;
-  cursor: pointer;
 }
 #welcome .btn:hover {
   background-color: #d9aa00;
@@ -107,7 +107,7 @@ header nav a:hover {
   border-radius: 50%;
   font-size: 64px;
   color: #ffffff;
-  margin-left: 112px;
+  margin-left: 145px;
 }
 #services h2 {
   font-size: 28px;
@@ -118,6 +118,11 @@ header nav a:hover {
   font-size: 20px;
   line-height: 1.4;
   color: #6c757d;
+}
+@media screen and (max-width: 1400px) {
+  #services .icon {
+    margin-left: 112px;
+  }
 }
 @media screen and (max-width: 1200px) {
   #services h4 {
@@ -338,9 +343,6 @@ header nav a:hover {
     width: 100px;
     height: 100px;
   }
-  #about .minibox {
-    height: 1864px;
-  }
   #about .imgbox {
     right: 18%;
   }
@@ -523,6 +525,7 @@ header nav a:hover {
   height: 250px;
   padding: 20px;
   border-radius: 8px;
+  cursor: text;
 }
 #contact .btn {
   padding: 20px 48px;
@@ -533,6 +536,7 @@ header nav a:hover {
   font-weight: 700;
   opacity: 0.6;
   border-radius: 6px;
+  cursor: auto;
 }
 @media screen and (max-width: 1400px) {
   #contact input {
