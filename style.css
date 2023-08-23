@@ -49,10 +49,7 @@ header nav a:hover {
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
   background-size: cover;
   background-position: center center;
-  padding-bottom: 200px;
-}
-#welcome .menu {
-  padding: 32px 0 220px;
+  padding: 280px 0 200px;
 }
 #welcome .imgbox {
   width: 180px;
