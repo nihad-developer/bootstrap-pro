@@ -385,7 +385,7 @@ header nav a:hover {
     width: 80px;
     height: 80px;
     position: absolute;
-    left: 125px;
+    left: 15%;
   }
   #about .img1 {
     top: 3130px;
@@ -402,7 +402,7 @@ header nav a:hover {
   #about .box {
     width: 80px;
     height: 80px;
-    left: 5px;
+    left: 1%;
     padding: 12px;
   }
   #about .box h5 {
