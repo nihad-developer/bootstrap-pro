@@ -18,7 +18,7 @@ header {
   padding: 32px 0;
   background-color: #202020;
   position: fixed;
-  width: 1280px;
+  width: 100vw;
   z-index: 1;
 }
 header .imgbox {
@@ -36,15 +36,30 @@ header nav a {
 header nav a:hover {
   color: #ffc800;
 }
-
-@media screen and (max-width: 992px) {
-  header {
-    width: 900px;
-  }
+@media (max-width: 992px) {
   header nav a {
     margin-left: 30px;
   }
 }
+@media (max-width: 768px) {
+  header nav a {
+    margin-left: 12px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 514px) {
+  header nav a {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 514px) {
+  header nav a {
+    margin-left: 6px;
+    font-size: 10px;
+  }
+}
+
 #welcome {
   background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
   background-size: cover;
