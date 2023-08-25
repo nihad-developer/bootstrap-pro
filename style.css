@@ -42,20 +42,32 @@ header nav a:hover {
   }
 }
 @media (max-width: 768px) {
+  header .imgbox {
+    width: 160px;
+  }
   header nav a {
     margin-left: 12px;
     font-size: 14px;
   }
 }
-@media (max-width: 514px) {
+@media (max-width: 532px) {
+  header header {
+    width: 130vw;
+  }
+  header .imgbox {
+    width: 140px;
+  }
   header nav a {
     margin-left: 8px;
     font-size: 12px;
   }
 }
-@media (max-width: 514px) {
+@media (max-width: 440px) {
+  header .imgbox {
+    width: 120px;
+  }
   header nav a {
-    margin-left: 6px;
+    margin-left: 4px;
     font-size: 10px;
   }
 }
@@ -65,6 +77,7 @@ header nav a:hover {
   background-size: cover;
   background-position: center center;
   padding: 280px 0 200px;
+  width: 100vw;
 }
 #welcome h1 {
   font-size: 40px;
@@ -86,6 +99,22 @@ header nav a:hover {
 }
 #welcome .btn:hover {
   background-color: #d9aa00;
+}
+@media screen and (max-width: 768px) {
+  #welcome #welcome {
+    padding: 180px 0 120px;
+  }
+  #welcome #welcome h1 {
+    font-size: 30px;
+  }
+  #welcome #welcome h3 {
+    font-size: 64px;
+  }
+}
+@media screen and (max-width: 532px) {
+  #welcome #welcome {
+    width: 150vw;
+  }
 }
 
 #services {
@@ -119,7 +148,7 @@ header nav a:hover {
 }
 #services h4 {
   font-size: 20px;
-  line-height: 1.4;
+  line-height: 1.6;
   color: #6c757d;
 }
 @media screen and (max-width: 1400px) {
@@ -145,7 +174,26 @@ header nav a:hover {
 }
 @media screen and (max-width: 768px) {
   #services .icon {
-    margin-left: 190px;
+    position: relative;
+    left: 30%;
+  }
+}
+@media screen and (max-width: 514px) {
+  #services .icon {
+    position: relative;
+    left: 25%;
+  }
+}
+@media screen and (max-width: 440px) {
+  #services .icon {
+    position: relative;
+    left: 22%;
+  }
+}
+@media screen and (max-width: 380px) {
+  #services .icon {
+    position: relative;
+    left: 14%;
   }
 }
 
