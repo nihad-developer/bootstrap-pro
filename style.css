@@ -299,34 +299,130 @@ header nav a:hover {
 }
 @media screen and (max-width: 576px) {
   #portfolio .first {
-    width: 520px;
-    height: 392px;
+    width: 500px;
+    height: 414px;
     top: 2202px;
   }
   #portfolio .second {
-    width: 520px;
-    height: 392px;
+    width: 500px;
+    height: 414px;
     top: 2717px;
   }
   #portfolio .third {
-    width: 520px;
-    height: 392px;
+    width: 500px;
+    height: 414px;
     top: 3235px;
   }
   #portfolio .fourth {
-    width: 520px;
-    height: 392px;
+    width: 500px;
+    height: 414px;
     top: 3750px;
   }
   #portfolio .fifth {
-    width: 520px;
-    height: 392px;
+    width: 500px;
+    height: 414px;
     top: 4241px;
   }
   #portfolio .sixth {
-    width: 520px;
-    height: 392px;
+    width: 500px;
+    height: 414px;
     top: 4733px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #portfolio .first {
+    width: 450px;
+    height: 360px;
+    top: 2195px;
+  }
+  #portfolio .second {
+    width: 450px;
+    height: 360px;
+    top: 2670px;
+  }
+  #portfolio .third {
+    width: 450px;
+    height: 360px;
+    top: 3147px;
+  }
+  #portfolio .fourth {
+    width: 450px;
+    height: 360px;
+    top: 3620px;
+  }
+  #portfolio .fifth {
+    width: 450px;
+    height: 360px;
+    top: 4080px;
+  }
+  #portfolio .sixth {
+    width: 450px;
+    height: 360px;
+    top: 4526px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #portfolio .first {
+    width: 400px;
+    height: 314px;
+    top: 2202px;
+  }
+  #portfolio .second {
+    width: 400px;
+    height: 314px;
+    top: 2676px;
+  }
+  #portfolio .third {
+    width: 400px;
+    height: 314px;
+    top: 3200px;
+  }
+  #portfolio .fourth {
+    width: 400px;
+    height: 314px;
+    top: 3710px;
+  }
+  #portfolio .fifth {
+    width: 400px;
+    height: 314px;
+    top: 4200px;
+  }
+  #portfolio .sixth {
+    width: 400px;
+    height: 314px;
+    top: 4700px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #portfolio .first {
+    width: 300px;
+    height: 285px;
+    top: 2360px;
+  }
+  #portfolio .second {
+    width: 300px;
+    height: 285px;
+    top: 2836px;
+  }
+  #portfolio .third {
+    width: 300px;
+    height: 285px;
+    top: 3360px;
+  }
+  #portfolio .fourth {
+    width: 300px;
+    height: 285px;
+    top: 3870px;
+  }
+  #portfolio .fifth {
+    width: 300px;
+    height: 285px;
+    top: 4360px;
+  }
+  #portfolio .sixth {
+    width: 300px;
+    height: 285px;
+    top: 4860px;
   }
 }
 
