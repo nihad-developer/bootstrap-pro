@@ -543,6 +543,9 @@ header nav a:hover {
 #team .textbox ul li, #team .textbox ul i {
   cursor: pointer;
 }
+#team .wid {
+  width: 650px;
+}
 #team .wid p {
   color: #6c757d;
   font-size: 18px;
@@ -622,6 +625,7 @@ header nav a:hover {
   margin: 16px 0 64px;
 }
 #contact input {
+  width: 640px;
   font-size: 18px;
   padding: 20px;
   border-radius: 6px;
@@ -629,6 +633,7 @@ header nav a:hover {
 }
 #contact textarea {
   font-size: 18px;
+  width: 640px;
   height: 250px;
   padding: 20px;
   border-radius: 8px;
@@ -644,6 +649,81 @@ header nav a:hover {
   opacity: 0.6;
   border-radius: 6px;
   cursor: auto;
+}
+@media screen and (max-width: 1400px) {
+  #contact input {
+    width: 550px;
+  }
+  #contact textarea {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #contact input {
+    width: 460px;
+  }
+  #contact textarea {
+    width: 460px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #contact input {
+    width: 340px;
+  }
+  #contact textarea {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #contact input {
+    width: 520px;
+  }
+  #contact textarea {
+    width: 520px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #contact input {
+    width: 450px;
+  }
+  #contact textarea {
+    width: 450px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #contact input {
+    width: 400px;
+  }
+  #contact textarea {
+    width: 400px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #contact input {
+    width: 400px;
+  }
+  #contact textarea {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #contact input {
+    width: 350px;
+  }
+  #contact textarea {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #contact input {
+    width: 300px;
+  }
+  #contact textarea {
+    width: 300px;
+  }
 }
 
 footer {
