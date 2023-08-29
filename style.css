@@ -172,22 +172,14 @@ header nav a:hover {
     left: 30%;
   }
 }
-@media screen and (max-width: 514px) {
+@media screen and (max-width: 500px) {
   #services .icon {
-    position: relative;
     left: 25%;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 400px) {
   #services .icon {
-    position: relative;
-    left: 22%;
-  }
-}
-@media screen and (max-width: 380px) {
-  #services .icon {
-    position: relative;
-    left: 14%;
+    left: 20%;
   }
 }
 
@@ -299,130 +291,138 @@ header nav a:hover {
 }
 @media screen and (max-width: 576px) {
   #portfolio .first {
-    width: 500px;
-    height: 414px;
+    width: 96%;
+    height: 35%;
     top: 2202px;
   }
   #portfolio .second {
-    width: 500px;
-    height: 414px;
+    width: 96%;
+    height: 35%;
     top: 2717px;
   }
   #portfolio .third {
-    width: 500px;
-    height: 414px;
+    width: 96%;
+    height: 35%;
     top: 3235px;
   }
   #portfolio .fourth {
-    width: 500px;
-    height: 414px;
+    width: 96%;
+    height: 35%;
     top: 3750px;
   }
   #portfolio .fifth {
-    width: 500px;
-    height: 414px;
+    width: 96%;
+    height: 35%;
     top: 4241px;
   }
   #portfolio .sixth {
-    width: 500px;
-    height: 414px;
+    width: 96%;
+    height: 35%;
     top: 4733px;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 514px) {
   #portfolio .first {
-    width: 450px;
-    height: 360px;
+    height: 32%;
     top: 2195px;
   }
   #portfolio .second {
-    width: 450px;
-    height: 360px;
+    height: 32%;
     top: 2670px;
   }
   #portfolio .third {
-    width: 450px;
-    height: 360px;
+    height: 32%;
     top: 3147px;
   }
   #portfolio .fourth {
-    width: 450px;
-    height: 360px;
+    height: 32%;
     top: 3620px;
   }
   #portfolio .fifth {
-    width: 450px;
-    height: 360px;
+    height: 32%;
     top: 4080px;
   }
   #portfolio .sixth {
-    width: 450px;
-    height: 360px;
+    height: 32%;
     top: 4526px;
   }
 }
 @media screen and (max-width: 450px) {
   #portfolio .first {
-    width: 400px;
-    height: 314px;
-    top: 2202px;
+    height: 28%;
+    top: 2300px;
   }
   #portfolio .second {
-    width: 400px;
-    height: 314px;
-    top: 2676px;
+    height: 28%;
+    top: 2700px;
   }
   #portfolio .third {
-    width: 400px;
-    height: 314px;
-    top: 3200px;
+    height: 28%;
+    top: 3150px;
   }
   #portfolio .fourth {
-    width: 400px;
-    height: 314px;
-    top: 3710px;
+    height: 28%;
+    top: 3550px;
   }
   #portfolio .fifth {
-    width: 400px;
-    height: 314px;
-    top: 4200px;
+    height: 28%;
+    top: 3950px;
   }
   #portfolio .sixth {
-    width: 400px;
-    height: 314px;
-    top: 4700px;
+    height: 28%;
+    top: 4350px;
   }
 }
 @media screen and (max-width: 400px) {
   #portfolio .first {
-    width: 300px;
-    height: 285px;
-    top: 2360px;
+    height: 24%;
+    top: 2400px;
   }
   #portfolio .second {
-    width: 300px;
-    height: 285px;
-    top: 2836px;
+    height: 24%;
+    top: 2800px;
   }
   #portfolio .third {
-    width: 300px;
-    height: 285px;
-    top: 3360px;
+    height: 24%;
+    top: 3200px;
   }
   #portfolio .fourth {
-    width: 300px;
-    height: 285px;
-    top: 3870px;
+    height: 24%;
+    top: 3550px;
   }
   #portfolio .fifth {
-    width: 300px;
-    height: 285px;
-    top: 4360px;
+    height: 24%;
+    top: 3950px;
   }
   #portfolio .sixth {
-    width: 300px;
-    height: 285px;
-    top: 4860px;
+    height: 24%;
+    top: 4350px;
+  }
+}
+@media screen and (max-width: 350px) {
+  #portfolio .first {
+    height: 20%;
+    top: 2400px;
+  }
+  #portfolio .second {
+    height: 20%;
+    top: 2750px;
+  }
+  #portfolio .third {
+    height: 20%;
+    top: 3150px;
+  }
+  #portfolio .fourth {
+    height: 20%;
+    top: 3450px;
+  }
+  #portfolio .fifth {
+    height: 20%;
+    top: 3800px;
+  }
+  #portfolio .sixth {
+    height: 20%;
+    top: 4100px;
   }
 }
 
