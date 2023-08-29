@@ -576,16 +576,58 @@ header nav a:hover {
     left: 5%;
   }
   #about .img1 {
-    top: 5240px;
+    top: 5700px;
+  }
+  #about .img2 {
+    top: 6130px;
+  }
+  #about .img3 {
+    top: 6560px;
+  }
+  #about .img4 {
+    top: 7000px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about .img1 {
+    top: 5400px;
+  }
+  #about .img2 {
+    top: 5730px;
+  }
+  #about .img3 {
+    top: 6160px;
+  }
+  #about .img4 {
+    top: 6600px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #about .img1 {
+    top: 5100px;
   }
   #about .img2 {
     top: 5530px;
   }
   #about .img3 {
-    top: 5825px;
+    top: 5960px;
   }
   #about .img4 {
-    top: 6115px;
+    top: 6400px;
+  }
+}
+@media screen and (max-width: 400px) {
+  #about .img1 {
+    top: 4900px;
+  }
+  #about .img2 {
+    top: 5330px;
+  }
+  #about .img3 {
+    top: 5760px;
+  }
+  #about .img4 {
+    top: 6200px;
   }
 }
 
@@ -779,21 +821,12 @@ header nav a:hover {
     height: 200px;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 520px) {
   #contact input {
     width: 450px;
   }
   #contact textarea {
     width: 450px;
-    height: 200px;
-  }
-}
-@media screen and (max-width: 500px) {
-  #contact input {
-    width: 400px;
-  }
-  #contact textarea {
-    width: 400px;
     height: 150px;
   }
 }
