@@ -16,10 +16,21 @@ header
             cursor: pointer
             &:hover
                 color: #ffc800
+    .navigator
+        display: none
+        .btn
+            font-size: 18px
+            font-weight: 700
+            padding: 8px 14px
+            color: #949191
+            border: 1px solid #616161
+            h5
+                margin-right: 5px
     @media( max-width: 992px )
         nav
-            a
-                margin-left: 30px
+            display: none
+        .navigator
+            display: block
     @media( max-width: 768px )
         .imgbox
             width: 160px
