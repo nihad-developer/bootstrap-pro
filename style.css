@@ -927,8 +927,8 @@ footer h2 {
   left: 44%;
 }
 #abouttwo .textbox {
-  width: 420px;
-  padding: 0 80px 100px 0;
+  width: 400px;
+  padding-bottom: 120px;
 }
 #abouttwo .textbox h2, #abouttwo .textbox h4 {
   font-weight: 700;
@@ -942,10 +942,12 @@ footer h2 {
 }
 #abouttwo .left-box {
   text-align: end;
+  position: relative;
+  right: 4%;
 }
 #abouttwo .right-box {
   position: relative;
-  left: 50%;
+  left: 48%;
 }
 #abouttwo .box {
   width: 170px;
@@ -956,12 +958,54 @@ footer h2 {
   background-color: #ffc800;
   padding: 40px;
   position: relative;
-  left: 43%;
+  left: 44%;
 }
 #abouttwo .box h5 {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.2;
+}
+@media screen and (max-width: 1400px) {
+  #abouttwo .textbox {
+    width: 350px;
+  }
+  #abouttwo .left-box {
+    right: 6%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #abouttwo .imgbox {
+    width: 150px;
+    height: 150px;
+  }
+  #abouttwo .left-box {
+    right: 14%;
+  }
+  #abouttwo .box {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #abouttwo .textbox {
+    width: 220px;
+  }
+  #abouttwo .imgbox {
+    width: 100px;
+    height: 100px;
+  }
+  #abouttwo .left-box {
+    right: 6%;
+  }
+  #abouttwo .box {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+  }
+  #abouttwo .box h5 {
+    font-size: 16px;
+  }
 }
 @media screen and (max-width: 768px) {
   #abouttwo .imgbox {
