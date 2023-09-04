@@ -7,9 +7,16 @@
         font-size: 18px
         margin: 16px 0 64px
         color: #6c757d
+    .imgbox
+        width: 170px
+        height: 170px
+        border: 7px solid #e9ecef
+        border-radius: 50%
+        position: relative
+        left: 44%
     .textbox
-        text-align: end
-        padding: 0 140px 120px 95px
+        width: 400px
+        padding-bottom: 120px
         h2,h4
             font-weight: 700
             font-size: 28px
@@ -18,18 +25,13 @@
             font-size: 19px
             color: #6b6b6b
             line-height: 1.5
-    .right-text
-        text-align: start
-        padding: 0 125px 120px 110px
-    .imgbox
-        width: 170px
-        height: 170px
-        border: 7px solid #e9ecef
-        border-radius: 50%
+    .left-box
+        text-align: end
         position: relative
-        right: 18%
-    .left-img
-        left: 86%
+        right: 4%
+    .right-box
+        position: relative
+        left: 48%
     .box
         width: 170px
         height: 170px
@@ -38,109 +40,68 @@
         color: #ffffff
         background-color: #ffc800
         padding: 40px
-        position: relative
-        left: 43%
         h5
             font-weight: 700
             font-size: 22px
             line-height: 1.2
     @media screen and ( max-width: 1400px )
         .textbox
-            padding: 0 110px 120px 95px
+            width: 350px
+        .left-box
+            right: 6%
     @media screen and ( max-width: 1200px )
-        .textbox
-            padding: 0 110px 120px 30px
-        .right-text
-            padding: 0 30px 120px 110px
         .imgbox
-            right: 21%
-        .left-img
-            left: 84%
+            width: 150px
+            height: 150px
+        .left-box
+            right: 14%
         .box
-            left: 41%
+            width: 150px
+            height: 150px
+            padding: 30px
     @media screen and ( max-width: 992px )
         .textbox
-            padding: 0 110px 120px 0
-        .right-text
-            padding: 0 0 120px 110px
+            width: 220px
         .imgbox
             width: 100px
             height: 100px
-        .imgbox
-            right: 18%
-        .left-img
-            left: 88%
+        .left-box
+            right: 6%
         .box
-            left: 43%
             width: 100px
             height: 100px
-            padding: 16px
+            padding: 15px
             h5
                 font-size: 16px
     @media screen and ( max-width: 768px )
-        .textbox
-            text-align: start
-            padding: 0 30px 50px 105px
-        .right-text
-            padding: 0 30px 50px 105px
         .imgbox
             width: 80px
             height: 80px
-            position: absolute
-            left: 10%
-        .img1
-            top: 3440px
-        .img2
-            top: 3705px
-        .img3
-            top: 3965px
-        .img4
-            top: 4230px
+            position: static
+        .textbox
+            width: 400px
+            padding: 0 0 48px 24px
+            position: static
+            text-align: start
+        .right-box
+            position: static
         .box
             width: 80px
             height: 80px
-            left: 1%
-            padding: 12px
+            padding: 8px
+            position: static
             h5
-                font-size: 12px
-    @media screen and ( max-width: 576px )
+                font-size: 14px
+    @media screen and ( max-width: 592px )
         .textbox
-            width: 320px
-        .imgbox
-            left: 5%
-        .img1
-            top: 5700px
-        .img2
-            top: 6130px
-        .img3
-            top: 6560px
-        .img4
-            top: 7000px
-    @media screen and ( max-width: 500px )
-        .img1
-            top: 5400px
-        .img2
-            top: 5730px
-        .img3
-            top: 6160px
-        .img4
-            top: 6600px
-    @media screen and ( max-width: 450px )
-        .img1
-            top: 5100px
-        .img2
-            top: 5530px
-        .img3
-            top: 5960px
-        .img4
-            top: 6400px
-    @media screen and ( max-width: 400px )
-        .img1
-            top: 4900px
-        .img2
-            top: 5330px
-        .img3
-            top: 5760px
-        .img4
-            top: 6200px
+            width: 350px
+    @media screen and ( max-width: 460px )
+        .textbox
+            width: 300px
+    @media screen and ( max-width: 410px )
+        .textbox
+            width: 250px
+    @media screen and ( max-width: 360px )
+        .textbox
+            width: 180px
 
