@@ -139,7 +139,12 @@ header .navigator .btn h5 {
   color: #6c757d;
   margin: 16px 0 64px;
 }
-#services .icon {
+#services .minibox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#services .minibox .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,7 +154,6 @@ header .navigator .btn h5 {
   border-radius: 50%;
   font-size: 64px;
   color: #ffffff;
-  margin-left: 145px;
 }
 #services h2 {
   font-size: 28px;
@@ -160,43 +164,6 @@ header .navigator .btn h5 {
   font-size: 20px;
   line-height: 1.6;
   color: #6c757d;
-}
-@media screen and (max-width: 1400px) {
-  #services .icon {
-    margin-left: 112px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #services h4 {
-    font-size: 17px;
-  }
-  #services .icon {
-    margin-left: 80px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #services h4 {
-    font-size: 16px;
-  }
-  #services .icon {
-    margin-left: 45px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #services .icon {
-    position: relative;
-    left: 30%;
-  }
-}
-@media screen and (max-width: 500px) {
-  #services .icon {
-    left: 25%;
-  }
-}
-@media screen and (max-width: 400px) {
-  #services .icon {
-    left: 20%;
-  }
 }
 
 #portfolio {
@@ -219,12 +186,8 @@ header .navigator .btn h5 {
   font-size: 64px;
   color: #ffffff;
   background-color: rgba(255, 200, 0, 0.9019607843);
-  width: 416px;
-  height: 314px;
   opacity: 0;
   cursor: pointer;
-  position: absolute;
-  top: 1632px;
   transition: 0.5s;
 }
 #portfolio .icon:hover {
@@ -252,11 +215,6 @@ header .navigator .btn h5 {
   font-size: 18px;
 }
 @media screen and (max-width: 1400px) {
-  #portfolio .icon {
-    width: 356px;
-    height: 267px;
-    top: 1665px;
-  }
   #portfolio .absolute {
     top: 2058px;
     width: 356px;
@@ -264,11 +222,6 @@ header .navigator .btn h5 {
   }
 }
 @media screen and (max-width: 1200px) {
-  #portfolio .icon {
-    width: 297px;
-    height: 223px;
-    top: 1645px;
-  }
   #portfolio .absolute {
     top: 1993px;
     width: 297px;
@@ -276,26 +229,13 @@ header .navigator .btn h5 {
   }
 }
 @media screen and (max-width: 992px) {
-  #portfolio .icon {
-    width: 336px;
-    height: 254px;
-    top: 1748px;
-  }
   #portfolio .absolute {
     top: 2126px;
     width: 336px;
     height: 254px;
   }
-  #portfolio .bottom {
-    top: 2504px;
-  }
 }
 @media screen and (max-width: 768px) {
-  #portfolio .icon {
-    width: 247px;
-    height: 186px;
-    top: 2202px;
-  }
   #portfolio .absolute {
     top: 2513px;
     width: 247px;
@@ -306,11 +246,6 @@ header .navigator .btn h5 {
   }
 }
 @media screen and (max-width: 576px) {
-  #portfolio .first {
-    width: 96%;
-    height: 35%;
-    top: 2202px;
-  }
   #portfolio .second {
     width: 96%;
     height: 35%;
@@ -600,11 +535,14 @@ header .navigator .btn h5 {
   font-size: 18px;
   margin: 16px 0 64px;
 }
-#team .imgbox {
+#team .minibox {
+  display: flex;
+  justify-content: center;
+}
+#team .minibox .imgbox {
   width: 224px;
   border: 8px solid #e9ecef;
   border-radius: 50%;
-  margin-left: 100px;
 }
 #team .textbox {
   text-align: center;
@@ -644,41 +582,6 @@ header .navigator .btn h5 {
   color: #6c757d;
   font-size: 18px;
   line-height: 1.4;
-}
-@media screen and (max-width: 1400px) {
-  #team .imgbox {
-    margin-left: 64px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #team .imgbox {
-    margin-left: 40px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #team .imgbox {
-    margin-left: 240px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #team .imgbox {
-    margin-left: 150px;
-  }
-}
-@media screen and (max-width: 500px) {
-  #team .imgbox {
-    margin-left: 120px;
-  }
-}
-@media screen and (max-width: 450px) {
-  #team .imgbox {
-    margin-left: 90px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #team .imgbox {
-    margin-left: 60px;
-  }
 }
 
 #company {
@@ -804,10 +707,10 @@ header .navigator .btn h5 {
 }
 @media screen and (max-width: 400px) {
   #contact input {
-    width: 300px;
+    width: 280px;
   }
   #contact textarea {
-    width: 300px;
+    width: 280px;
   }
 }
 
