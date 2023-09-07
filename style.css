@@ -33,7 +33,7 @@ header .imgbox img {
 }
 header nav a {
   color: #ffffff;
-  margin-left: 48px;
+  margin: 0 24px;
   font-size: 18px;
   cursor: pointer;
 }
@@ -658,7 +658,7 @@ header .navigator .btn h5 {
   margin: 16px 0 64px;
 }
 #contact input {
-  width: 640px;
+  width: 100%;
   font-size: 18px;
   padding: 20px;
   border-radius: 6px;
@@ -666,7 +666,7 @@ header .navigator .btn h5 {
 }
 #contact textarea {
   font-size: 18px;
-  width: 640px;
+  width: 100%;
   height: 250px;
   padding: 20px;
   border-radius: 8px;
@@ -682,72 +682,6 @@ header .navigator .btn h5 {
   opacity: 0.6;
   border-radius: 6px;
   cursor: auto;
-}
-@media screen and (max-width: 1400px) {
-  #contact input {
-    width: 550px;
-  }
-  #contact textarea {
-    width: 550px;
-  }
-}
-@media screen and (max-width: 1200px) {
-  #contact input {
-    width: 460px;
-  }
-  #contact textarea {
-    width: 460px;
-  }
-}
-@media screen and (max-width: 992px) {
-  #contact input {
-    width: 340px;
-  }
-  #contact textarea {
-    width: 340px;
-  }
-}
-@media screen and (max-width: 768px) {
-  #contact input {
-    width: 520px;
-  }
-  #contact textarea {
-    width: 520px;
-    height: 200px;
-  }
-}
-@media screen and (max-width: 520px) {
-  #contact input {
-    width: 450px;
-  }
-  #contact textarea {
-    width: 450px;
-    height: 150px;
-  }
-}
-@media screen and (max-width: 450px) {
-  #contact input {
-    width: 400px;
-  }
-  #contact textarea {
-    width: 400px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #contact input {
-    width: 350px;
-  }
-  #contact textarea {
-    width: 350px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #contact input {
-    width: 280px;
-  }
-  #contact textarea {
-    width: 280px;
-  }
 }
 
 footer {
