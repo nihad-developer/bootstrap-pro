@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 header {
-  padding: 32px 0;
+  padding: 24px 0;
   background-color: #272726;
   position: fixed;
   width: 100vw;
@@ -40,55 +40,24 @@ header nav a {
 header nav a:hover {
   color: #ffc800;
 }
-header .navigator {
+header .btn {
   display: none;
-}
-header .navigator .btn {
   font-size: 18px;
   font-weight: 700;
   padding: 8px 14px;
   color: #949191;
   border: 1px solid #616161;
 }
-header .navigator .btn h5 {
+header .btn h5 {
   margin-right: 5px;
 }
 @media (max-width: 992px) {
   header nav {
     display: none;
   }
-  header .navigator {
-    display: block;
-  }
-}
-@media (max-width: 768px) {
-  header .imgbox {
-    width: 160px;
-  }
-  header nav a {
-    margin-left: 12px;
-    font-size: 14px;
-  }
-}
-@media (max-width: 532px) {
-  header header {
-    width: 130vw;
-  }
-  header .imgbox {
-    width: 140px;
-  }
-  header nav a {
-    margin-left: 8px;
-    font-size: 12px;
-  }
-}
-@media (max-width: 440px) {
-  header .imgbox {
-    width: 120px;
-  }
-  header nav a {
-    margin-left: 4px;
-    font-size: 10px;
+  header .btn {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -111,7 +80,7 @@ header .navigator .btn h5 {
 #welcome .btn {
   background-color: #ffc800;
   color: #ffffff;
-  padding: 18px 50px;
+  padding: 16px 48px;
   font-size: 20px;
   font-weight: 700;
   border-radius: 7px;
@@ -120,14 +89,15 @@ header .navigator .btn h5 {
   background-color: #d9aa00;
 }
 @media screen and (max-width: 768px) {
-  #welcome #welcome {
+  #welcome {
     padding: 168px 0 96px;
   }
-  #welcome #welcome h1 {
-    font-size: 30px;
+  #welcome h1 {
+    font-size: 32px;
   }
-  #welcome #welcome h3 {
+  #welcome h3 {
     font-size: 64px;
+    margin: 25px 0 32px;
   }
 }
 

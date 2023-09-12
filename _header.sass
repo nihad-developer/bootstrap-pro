@@ -1,5 +1,5 @@
 header
-    padding: 32px 0
+    padding: 24px 0
     background-color: #272726
     position: fixed
     width: 100vw
@@ -16,41 +16,18 @@ header
             cursor: pointer
             &:hover
                 color: #ffc800
-    .navigator
+    .btn
         display: none
-        .btn
-            font-size: 18px
-            font-weight: 700
-            padding: 8px 14px
-            color: #949191
-            border: 1px solid #616161
-            h5
-                margin-right: 5px
+        font-size: 18px
+        font-weight: 700
+        padding: 8px 14px
+        color: #949191
+        border: 1px solid #616161
+        h5
+            margin-right: 5px
     @media( max-width: 992px )
         nav
             display: none
-        .navigator
-            display: block
-    @media( max-width: 768px )
-        .imgbox
-            width: 160px
-        nav
-            a
-                margin-left: 12px
-                font-size: 14px
-    @media( max-width: 532px )
-        header
-            width: 130vw
-        .imgbox
-            width: 140px
-        nav
-            a
-                margin-left: 8px
-                font-size: 12px
-    @media( max-width: 440px )
-        .imgbox
-            width: 120px
-        nav
-            a
-                margin-left: 4px
-                font-size: 10px
+        .btn
+            display: flex
+            align-items: center
