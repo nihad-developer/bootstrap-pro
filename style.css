@@ -388,11 +388,10 @@ header .btn h5 {
 }
 
 #company {
-  padding: 48px 0;
+  padding: 64px 0;
 }
 #company .imgbox {
   width: 200px;
-  margin: 16px 0;
 }
 #company .imgbox img {
   cursor: pointer;
