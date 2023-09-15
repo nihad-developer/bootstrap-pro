@@ -157,10 +157,18 @@ header .btn h5 {
   justify-content: center;
   align-items: center;
   font-size: 64px;
+  width: 416px;
   height: 314px;
   color: #ffffff;
   background-color: rgba(255, 200, 0, 0.9019607843);
+  position: absolute;
+  transform: translate(0, -314px);
   cursor: pointer;
+  opacity: 0;
+  transition: 0.5s;
+}
+#portfolio .icon:hover {
+  opacity: 1;
 }
 #portfolio .icon i {
   cursor: pointer;
@@ -178,6 +186,34 @@ header .btn h5 {
 #portfolio .textbox h4 {
   color: #6c757d;
   font-size: 18px;
+}
+@media screen and (max-width: 1400px) {
+  #portfolio .icon {
+    width: 356px;
+    height: 267px;
+    transform: translate(0, -267px);
+  }
+}
+@media screen and (max-width: 1200px) {
+  #portfolio .icon {
+    width: 296px;
+    height: 222px;
+    transform: translate(0, -222px);
+  }
+}
+@media screen and (max-width: 992px) {
+  #portfolio .icon {
+    width: 336px;
+    height: 252px;
+    transform: translate(0, -252px);
+  }
+}
+@media screen and (max-width: 768px) {
+  #portfolio .icon {
+    width: 246px;
+    height: 184px;
+    transform: translate(0, -184px);
+  }
 }
 
 #about {
